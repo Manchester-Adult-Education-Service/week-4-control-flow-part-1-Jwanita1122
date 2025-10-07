@@ -27,6 +27,9 @@
 # 2. Compare them using >, <, ==, != and print the results.
 
 # Write your code below:
+num1 = 30
+num2 = 15
+print(num1 != num2)
 
 
 # Step 2: String Comparisons
@@ -34,7 +37,7 @@
 # You can compare text (strings) using == or !=.
 # Example: "apple" == "apple" gives True.
 # Example: "apple" == "Apple" gives False (Python is case-sensitive!).
-
+print("orange" == "orange")
 # Example of printing Boolean results:
 # print(word1 == word2)  # Prints True or False depending on your strings
 
@@ -44,7 +47,9 @@
 # 3. Compare them using != and print the result.
 
 # Write your code below:
-
+fruit1 = "strawbery"
+fruit2 = "banana"
+print(fruit1 == fruit2)
 
 # Step 3: Input and Boolean Results
 # ---------------------------------
@@ -61,6 +66,9 @@
 # Ask the user to type a word and compare it to a stored string, then print True/False.
 
 # Write your code below:
+
+userNumber = int(input("what is user number? "))
+print(userNumber == 50)
 
 # -------------------------------------------
 # Submitting Your Work
